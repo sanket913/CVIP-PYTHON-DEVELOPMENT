@@ -29,7 +29,7 @@ def generate_random_password():
 
 root = tk.Tk()
 root.title(" Password Generator")
-root.geometry("700x370")  # Adjusted the height
+root.geometry("900x400")  # Adjusted the height
 root.config(bg="green")
 # Labels
 length_label = tk.Label(root, text="Password Length:", font=("Times New Roman", 20, "bold"),bg="grey")
